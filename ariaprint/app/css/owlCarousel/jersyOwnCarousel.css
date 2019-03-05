@@ -1,0 +1,10 @@
+.owl-carousel button.owl-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.owl-carousel button.active   {
+        background-color: #5F5F5F;
+}
