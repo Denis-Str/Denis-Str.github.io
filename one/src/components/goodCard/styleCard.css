@@ -1,0 +1,8 @@
+.goodItem {
+    width: 220px;
+    min-height: 318px;
+    border: 1px solid #eaeaea;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
