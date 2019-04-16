@@ -1,0 +1,18 @@
+@import "_mixins/font-face";
+
+@include font-face("MontserratLight", "../fonts/montserrat/MontserratLight");
+@include font-face("montserratbold", "../fonts/montserrat/montserratbold");
+@include font-face("montserrat", "../fonts/montserrat/montserrat");
+
+@include font-face("bebasneuebold", "../fonts/bebasneue/bebasneuebold");
+
+@include font-face("Poppinsblack", "../fonts/poppins/Poppinsblack");
+@include font-face("Poppinsbold", "../fonts/poppins/Poppinsbold");
+@include font-face("poppinsboldsemibold", "../fonts/poppins/poppinsboldsemibold");
+@include font-face("Poppinsregular", "../fonts/poppins/Poppinsregular");
+
+@include font-face("fa-regular", "../fonts/fontawesome/fa-regular-400");
+@include font-face("fa-brands", "../fonts/fontawesome/fa-brands-400");
+@include font-face("fa-solid", "../fonts/fontawesome/fa-solid-900");
+
+
