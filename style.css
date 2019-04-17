@@ -1,11 +1,11 @@
 body {
-    font-family: Georgia;
+    font-family: Georgia, sans-serif;
     font-size: 16px;
     margin: 0 auto;   /* center content */
     max-width: 800px; /* limit width */
-    line-height: 1.5;
-    padding-top: 32px;
+    line-height: 1.2;
     padding-bottom: 32px;
+    background-color: #edebeb;
 }
 
 /* BEGIN (write your solution here) */
@@ -18,6 +18,7 @@ body {
     }
     h1 {
         font-size: 36px;
+        text-align: center;
     }
     h2 {
         font-size: 32px;
@@ -33,7 +34,58 @@ body {
         text-align: center;
     }
     #footer {
-        margin-top: 64px;
+        margin-top: 14px;
         text-align: center;
     }
 /* END */
+
+.main, .header {
+    background-color: #fff;
+}
+
+.main {
+    padding-left: 20px;
+    box-shadow: 0 0 10px  grey;
+}
+
+.courses a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.work a {
+    color: #3954d9;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.skill {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.fab {
+    font-size: 46px;
+    color: brown;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer h3 {
+    margin-bottom: 10px;
+}
+
+.cont a {
+    color: #3954d9;
+    text-decoration: none;
+    font-style: italic;
+    padding-bottom: 10px;
+}
